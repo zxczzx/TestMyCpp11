@@ -2,7 +2,7 @@
 #include <iostream>
 #include <memory>
 
-//template<class T>
+template<class T>
 class Node{
 public:
 	int data;
