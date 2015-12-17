@@ -1,8 +1,8 @@
-#include "List.h"
+#include "List.cpp"
 
 int main(){
 	std::cout << "wyprintuje liste" << std::endl;
-	std::shared_ptr<List> list(new List());
+	std::shared_ptr<List<int> > list(new List<int>());
 	list->push_start(1);
 	list->push_start(2);
 	list->push_start(3);
